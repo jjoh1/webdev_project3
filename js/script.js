@@ -11,7 +11,12 @@ async function initMap() {
     zoom: 10.5,
     mapId: "4504f8b37365c3d0",
   });
-
+  
+  const jones = new AdvancedMarkerElement({
+    map,
+    position: { lat: 41.87313493952422, lng: -87.62777109948178 },
+    title: "Jones College Prep",
+  });
 }
 
 initMap();
