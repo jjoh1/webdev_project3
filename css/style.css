@@ -1,0 +1,151 @@
+body {
+  background-color: white;
+}
+
+header {
+  background-color: #ffcfe6;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 95%;
+  border-radius: 10px;
+}
+
+nav {
+  border-bottom: 3px solid white;
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  display: block;
+  border: 2px dotted white;
+  padding: 10px;
+  font-family: "Courier Prime", "Courier New";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li#onPage a {
+  background-color: white;
+  color: #ffcfe6;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: white;
+  color: black;
+  margin: auto auto auto 5%;
+  padding: 1em;
+  width: 80%;
+  max-width: 900px;
+  border: 3px solid #ffcfe6;
+  border-radius: 10px;
+  box-shadow: 0px 5px 80px rgba(255, 207, 230, .2);
+  overflow: hidden;
+}
+
+section.qestionAnswer h2 {
+  margin: 10px;
+  float: left;
+  width: 40%;
+  border-right: 5px dotted #ffcfe6;
+  overflow: hidden;
+}
+
+section.qestionAnswer p {
+  margin: 10px;
+  float: left;
+  width: 40%;
+  overflow: hidden;
+}
+
+section.seperate {
+  border-bottom: 5px dotted #ffcfe6;
+}
+
+img.cat {
+  width: 50%;
+  height: auto;
+  float: right;
+  min-width: 200px;
+}
+
+iframe.songVid {
+  width: 50%;
+  height: auto;
+  aspect-ratio: 16/9; /*https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio*/
+  float: right;
+  margin-left: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-family: "Londrina Sketch", "Times New Roman";
+  font-weight: bold;
+  font-size: 80px;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Courier Prime", "Courier New";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: "Prata", Georgia;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "Prata", Georgia;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+p {
+  font-family: arial;
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: "\21E8\ ";
+}
+
+ul ul{
+  list-style-type: "\2192\ ";
+}
+
+ul.vidList li {
+  clear: both;
+}
+
+li.remBullet {
+  list-style-type: none;
+}
