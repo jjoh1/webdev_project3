@@ -17,6 +17,12 @@ async function initMap() {
     position: { lat: 41.87313493952422, lng: -87.62777109948178 },
     title: "Jones College Prep",
   });
+  
+  const loyola = new AdvancedMarkerElement({
+    map,
+    position: { lat: 41.99854414314861, lng: -87.65706614918372 },
+    title: "Loyola University Chicago",
+  });
 }
 
 initMap();
