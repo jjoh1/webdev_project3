@@ -23,6 +23,12 @@ async function initMap() {
     position: { lat: 41.99854414314861, lng: -87.65706614918372 },
     title: "Loyola University Chicago",
   });
+  
+  const iit = new AdvancedMarkerElement({
+    map,
+    position: { lat: 41.85106289143754, lng: -87.6227089523229 },
+    title: "Illinois Institute of Technology",
+  });
 }
 
 initMap();
