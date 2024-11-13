@@ -36,7 +36,7 @@ nav ul li a {
   font-family: "Courier Prime", "Courier New";
   font-weight: 600;
   font-style: normal;
-  font-size: 50px;
+  font-size: 40px;
   text-decoration: none;
   color: white;
 }
@@ -133,6 +133,10 @@ li.remBullet {
   list-style-type: none;
 }
 
+#map {
+  height: 1000px;
+}
+
 
 /*Tablet Size*/
 @media screen and (min-width: 985px){
@@ -172,6 +176,10 @@ li.remBullet {
     width: 50%;
     float: right;
     min-width: 200px;
+  }
+  
+  #map {
+    height: 500px;
   }
 }
 
