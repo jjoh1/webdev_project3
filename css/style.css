@@ -36,7 +36,7 @@ nav ul li a {
   font-family: "Courier Prime", "Courier New";
   font-weight: 600;
   font-style: normal;
-  font-size: 25px;
+  font-size: 50px;
   text-decoration: none;
   color: white;
 }
@@ -53,28 +53,9 @@ nav ul li a:hover {
 main {
   background-color: white;
   color: black;
-  margin: auto auto auto 5%;
+  margin: auto;
   padding: 1em;
-  width: 80%;
-  max-width: 900px;
-  border: 3px solid #ffcfe6;
-  border-radius: 10px;
-  box-shadow: 0px 5px 80px rgba(255, 207, 230, .2);
-  overflow: hidden;
-}
-
-section.qestionAnswer h2 {
-  margin: 10px;
-  float: left;
-  width: 40%;
-  border-right: 5px dotted #ffcfe6;
-  overflow: hidden;
-}
-
-section.qestionAnswer p {
-  margin: 10px;
-  float: left;
-  width: 40%;
+  width: 90%;
   overflow: hidden;
 }
 
@@ -83,10 +64,8 @@ section.seperate {
 }
 
 img.cat {
-  width: 50%;
+  width: 80%;
   height: auto;
-  float: right;
-  min-width: 200px;
 }
 
 iframe.songVid {
@@ -104,7 +83,7 @@ iframe.songVid {
 h1 {
   font-family: "Londrina Sketch", "Times New Roman";
   font-weight: bold;
-  font-size: 80px;
+  font-size: 150px;
   font-style: normal;
 }
 
@@ -112,26 +91,30 @@ h2 {
   font-family: "Courier Prime", "Courier New";
   font-weight: 700;
   font-style: normal;
-  font-size: 40px;
+  font-size: 90px;
 }
 
 h3 {
   font-family: "Prata", Georgia;
   font-weight: 600;
   font-style: normal;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 h4 {
   font-family: "Prata", Georgia;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 35px;
 }
 
 p {
   font-family: arial;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 ul {
@@ -148,4 +131,73 @@ ul.vidList li {
 
 li.remBullet {
   list-style-type: none;
+}
+
+
+/*Tablet Size*/
+@media screen and (min-width: 985px){
+  nav ul li a {
+    font-size: 25px;
+  }
+  
+  main {
+    width: 80%;
+  }
+  
+  h1 {
+    font-size: 80px;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5{
+    font-size: 16.5px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+  
+  img.cat {
+    width: 50%;
+    float: right;
+    min-width: 200px;
+  }
+}
+
+/*Desktop Size*/
+@media screen and (min-width: 1200px) {
+  
+  main {
+    margin: auto auto auto 5%;
+    max-width: 900px;
+    border: 3px solid #ffcfe6;
+    border-radius: 10px;
+    box-shadow: 0px 5px 80px rgba(255, 207, 230, .2);
+  }
+  
+  section.qestionAnswer h2 {
+    margin: 10px;
+    float: left;
+    width: 40%;
+    border-right: 5px dotted #ffcfe6;
+    overflow: hidden;
+  }
+
+  section.qestionAnswer p {
+    margin: 10px;
+    float: left;
+    width: 40%;
+    overflow: hidden;
+  }
 }
